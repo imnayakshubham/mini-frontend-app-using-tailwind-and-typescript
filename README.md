@@ -44,8 +44,6 @@ Ensure you have the following installed on your machine:
 
 ## Author
 
-![imnayakshubham](https://avatars.githubusercontent.com/u/70691188?s=40&v=4)
-
 **imnayakshubham**  
 [GitHub Profile](https://github.com/imnayakshubham)
 
