@@ -1,0 +1,43 @@
+@keyframes fadeInScale {
+    from {
+        opacity: 0;
+        backdrop-filter: blur(0px);
+    }
+
+    to {
+        opacity: 1;
+        backdrop-filter: blur(2px);
+    }
+}
+
+@keyframes fadeOutScale {
+    from {
+        opacity: 1;
+        backdrop-filter: blur(2px);
+    }
+
+    to {
+        opacity: 0;
+        backdrop-filter: blur(0px)
+    }
+}
+
+.modal__wrapper {
+    opacity: 0;
+    backdrop-filter: blur(0);
+    transition: opacity 200ms ease-in-out, backdrop-filter 200ms ease-in-out;
+}
+
+.modal__wrapper.show {
+    opacity: 1;
+    backdrop-filter: blur(2px);
+
+}
+
+.modal__container {
+    animation: fadeInScale 200ms ease-in-out forwards;
+}
+
+.modal__container.fadeout {
+    animation: fadeOutScale 200ms ease-in-out forwards;
+}

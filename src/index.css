@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+
+@tailwind utilities;
+
+
+.auth__border {
+    padding: 0.2rem;
+    background: linear-gradient(129.59deg, #969696 0%, #343434 98.18%);
+}
+
+
+.modal__container {
+    padding: 0;
+}
