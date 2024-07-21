@@ -1,30 +1,66 @@
-# React + TypeScript + Vite
+# Mini Frontend App using Tailwind CSS and TypeScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a mini frontend application built using Tailwind CSS and TypeScript and Vite.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Prerequisites
 
-## Expanding the ESLint configuration
+Ensure you have the following installed on your machine:
+- Node.js
+- npm or yarn
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Installation
 
-- Configure the top-level `parserOptions` property like this:
+1. **Clone the repository**
+    ```bash
+    git clone https://github.com/imnayakshubham/mini-frontend-app-using-tailwind-and-typescript.git
+    ```
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+2. **Navigate to the project directory**
+    ```bash
+    cd mini-frontend-app-using-tailwind-and-typescript
+    ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+3. **Install the dependencies**
+    Using npm:
+    ```bash
+    npm install
+    ```
+    or using yarn:
+    ```bash
+    yarn install
+    ```
+
+4. **Start the development server**
+    Using npm:
+    ```bash
+    npm start
+    ```
+    or using yarn:
+    ```bash
+    yarn start
+    ```
+
+## Author
+
+![imnayakshubham](https://avatars.githubusercontent.com/u/70691188?s=40&v=4)
+
+**imnayakshubham**  
+[GitHub Profile](https://github.com/imnayakshubham)
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contributing
+
+1. Fork the repository.
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4. Push to the branch (`git push origin feature/AmazingFeature`).
+5. Open a pull request.
+
+## Contact
+
+For any questions or feedback, please open an issue or contact the author via their [GitHub profile](https://github.com/imnayakshubham).
